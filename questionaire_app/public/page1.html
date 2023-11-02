@@ -11,7 +11,7 @@
             <p>作業者にフィードバックするために、以下の項目から１つ以上のご回答をお願いいたします</p>
         </body>
 <link rel="stylesheet" href="../src/page1.css">
-<form>
+<form action="./page2.html">
     <p>ご契約ID(CAFまたはCOPで始まる番号)</p>
     <select name="caf-or-cop">
         <option value="caf">CAF</option>
@@ -74,12 +74,14 @@
         <option value="鹿児島県">鹿児島県</option>
         <option value="沖縄県">沖縄県</option>
         </select>
-        
- </form>
+    <p>市区町村・丁名</p>
+    <textarea name="city" placeholder="○○市○○区○○町○○丁目"></textarea>
+    <p>建物名・部屋番号</p>
+    <textarea name="building" placeholder="○○マンション○○号室"></textarea>
 
-<body>
     <p>記載していただいた個人情報は、作業者へフィードバック以外には使用しません</p>
     <p>第三者に個人情報を提供することもございません。</p>
     <p>なお、そのほか個人情報に関してはNTT東日本プライバシーポリシーに則って適切に取り扱います</p>
     <p>NTT東日本プライバシーポリシーは<a href="https://www.ntt-east.co.jp/info/disclaimer/privacy.html">こちら</a>をご確認ください</p>
-</body>
+    <input type="submit" class="form-Btn" value="次へ">
+ </form>
